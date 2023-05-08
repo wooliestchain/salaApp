@@ -1,0 +1,15 @@
+set_quantity(quantity: int): met à jour la quantité vendue dans cette vente.
+get_quantity() -> int: renvoie la quantité vendue dans cette vente.
+set_amount(amount: float): met à jour le montant de cette vente.
+get_amount() -> float: renvoie le montant de cette vente.
+set_date(date: datetime.date): met à jour la date de cette vente.
+get_date() -> datetime.date: renvoie la date de cette vente.
+set_time(time: datetime.time): met à jour l'heure de cette vente.
+get_time() -> datetime.time: renvoie l'heure de cette vente.
+set_product(product: Product): met à jour le produit vendu dans cette vente.
+get_product() -> Product: renvoie le produit vendu dans cette vente.
+set_merchant(merchant: Merchant): met à jour le commerçant qui a effectué cette vente.
+get_merchant() -> Merchant: renvoie le commerçant qui a effectué cette vente.
+
+
+Les methodes de la classe Sale, certaines sont incorrectes 

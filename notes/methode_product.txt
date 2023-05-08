@@ -1,0 +1,17 @@
+set_price(price: float): met à jour le prix du produit.
+get_price() -> float: renvoie le prix actuel du produit.
+set_category(category: str): met à jour la catégorie du produit.
+get_category() -> str: renvoie la catégorie actuelle du produit.
+get_sales() -> List[Sale]: renvoie une liste de toutes les ventes pour ce produit.
+get_total_sales() -> float: renvoie le montant total des ventes pour ce produit.
+get_sales_by_date(date: datetime.date) -> List[Sale]: renvoie une liste de toutes les ventes pour ce produit pour une date donnée.
+get_sales_by_week(date: datetime.date) -> List[Sale]: renvoie une liste de toutes les ventes pour ce produit pour la semaine correspondant à la date donnée.
+get_sales_by_month(month: int, year: int) -> List[Sale]: renvoie une liste de toutes les ventes pour ce produit pour le mois et l'année donnés.
+get_sales_by_year(year: int) -> List[Sale]: renvoie une liste de toutes les ventes pour ce produit pour l'année donnée.
+get_sales_by_merchant(merchant_id: int) -> List[Sale]: renvoie une liste de toutes les ventes pour ce produit effectuées par un commerçant donné.
+get_top_merchants(n: int) -> List[Tuple[Merchant, float]]: renvoie une liste des n commerçants ayant vendu le plus de ce produit, avec leur montant total de ventes pour ce produit.
+get_average_sales() -> float: renvoie la moyenne des ventes pour ce produit.
+Encore une fois, la liste des méthodes peut varier en fonction des besoins spécifiques de 
+
+
+	Les methides de la classe Product, certaines sont éronnées 

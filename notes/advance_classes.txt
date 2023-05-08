@@ -1,0 +1,42 @@
++---------------------+           +----------------+          +-----------------+
+|      Commercant      |<>--------|     Vente      |<>-------|     Produit     |
++---------------------+           +----------------+          +-----------------+
+| - nom                |           | - quantite     |          | - nom            |
+| - lieu_de_ventes     |<>-------| - montant      |          | - categorie      |
+| - horaire_de_vente   |           | - date         |          | - prix           |
+| - jours_de_la_semaine|           | - heure        |          |                 |
++---------------------+           | - lieu         |          +-----------------+
+                                  +----------------+
+                                           |
+                                           |
+                                           |
+                                           |
+                            +------------------------+
+                            |    AnalyseVente         |
+                            +------------------------+
+                            |                        |
+                            | +vendu_max_produit()    |
+                            | +vendu_max_lieu()       |
+                            | +mois_fortune()         |
+                            +------------------------+
+                                        |
+                                        |
+                                        |
+                              +----------------------+
+                              |  PerformanceCommercant|
+                              +----------------------+
+                              | - chiffre_vente       |
+                              | - produits_vendus     |
+                              | - lieux_vente         |
+                              | - mois_fortune        |
+                              +----------------------+
+                                        |
+                                        |
+                                        |
+                               +------------------+
+                               |   AnalyseProduit |
+                               +------------------+
+                               |                  |
+                               | +ventes_mensuelles()|
+                               | +ventes_par_categorie()|
+                               +------------------+

@@ -1,0 +1,22 @@
++------------------------+           +------------------------+
+|        Merchant        |           |         Product         |
++------------------------+           +------------------------+
+|   - id: int            |           |   - id: int             |
+|   - location: string   |           |   - category: string    |
+|   - days: list<string> |           |   - price: float        |
+|   - hours: string      |           +------------------------+
+|   - sales: list<Sale>  |
++------------------------+
+        ^                  ^
+        |                  |
+        +------------------+
+                |
+                |
+          +------------+
+          |    Sale    |
+          +------------+
+          |  - product: Product |
+          |  - amount: float |
+          |  - quantity: int |
+          |  - date: Date |
+          +------------+

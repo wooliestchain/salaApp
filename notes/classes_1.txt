@@ -1,0 +1,11 @@
++-------------+              +-------------+              +---------------+
+|  Commercant |              |   Produit   |              |     Vente     |
++-------------+              +-------------+              +---------------+
+| - nom       |              | - nom       |              | - date        |
+| - adresse   |              | - categorie |              | - heure       |
+| - horaire   |              | - prix      |              | - quantite    |
+| - jours     |              +-------------+              | - montant     |
++-------------+                                           | - lieu (FK)   |
+                                                           | - produit (FK)|
+                                                           +---------------+
+
